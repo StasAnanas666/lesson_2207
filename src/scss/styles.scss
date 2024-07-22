@@ -1,3 +1,16 @@
 @import "custom";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.btn-indigo {
+    background-color: $indigo-400;
+    &:hover {
+        background-color: $purple-500;
+    }
+}
+
+.btn-orange {
+    background-color: $orange-500;
+    &:hover {
+        background-color: $orange-600;
+    }
+}
